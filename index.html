@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="order">
+        <button class="btn_order">Мої замовлення</button>
+    </div>
+
+    <div class="container">
+        <div class="categories"></div>
+        <div class="products"></div>
+        <div class="details"></div>
+    </div>
+<div class="form_div">
+    <form name="person_info" class="form">
+        <h1>Заповніть інформацію для отримання посилки</h1>
+        <div>
+            <label for="info">ПІБ</label>
+            <input type="text" name="info" id="info" placeholder="Введіть ПІБ">
+        </div>
+        <br>
+        <div class="place_div">
+            <p>Місто прибуття:</p>
+            <select name="city" class="city">
+                <option value="Не обрано"></option>
+                <option value="Київ">Київ</option>
+                <option value="Дніпро">Дніпро</option>
+                <option value="Одеса">Одеса</option>
+                <option value="Хакрів">Харків</option>
+                <option value="Вінниця">Вінниця</option>
+                <option value="Львів">Львів</option>
+              </select>
+        </div>
+        <br>
+        <div class="mail_div">
+            <p>Відділення Нової Пошти:</p>
+            <select name="mail" class="mail">
+                <option value="Не обрано"></option>
+                <option value="1">Нова Пошта №1</option>
+                <option value="2">Нова Пошта №2</option>
+                <option value="3">Нова Пошта №3</option>
+                <option value="4">Нова Пошта №4</option>
+                <option value="5">Нова Пошта №5</option>
+                <option value="6">Нова Пошта №6</option>
+              </select>
+        </div>
+        <div class="pay_div">
+            <p>Оберіть способ оплати:</p>
+            <select name="pay" class="pay">
+                <option value="Не обрано"></option>
+                <option value="Післяплата">Післяплата</option>
+                <option value="Банківська карта">Банківська карта</option>
+              </select>
+        </div>
+        <br>
+        <div class="count_of_item">
+            <p>Введіть кількість товару:</p>
+            <input type="number" name="count" id="count" >
+        </div>
+        <br>
+        <div class="commemnts">
+            <p>Коментар до замовлення:</p>
+            <textarea name="commemnts" id="commemnts" cols="30" rows="10"></textarea>
+        </div>
+        <div class="send_div">
+            <input type="submit" value="Підвердити замовлення" id="send_btn">
+        </div>
+
+    </form>
+</div>
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

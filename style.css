@@ -1,0 +1,108 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 10px;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.container > div {
+    border: 1px solid black;
+    width: 33%;
+    min-height: 100px;
+}
+
+.categories > div, .products > div, .details > div{
+    margin-left: 15px;
+}
+
+.details > button {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#send_btn {
+    margin-left: 0;
+}
+
+.mail_div {
+    margin-bottom: 20px;
+}
+
+.place_div, .mail_div, .pay_div, .count_of_item {
+    display: flex;
+}
+
+.count_of_item > input {
+    width: 40px;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn_order {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.btn_style {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.form {
+    display: none;
+}
+
+.form_display {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div_table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #ECE9E0;
+    color: #656665;
+    border: 16px solid #ECE9E0;
+    border-radius: 20px;
+}
+
+th {
+    font-size: 18px;
+    padding: 10px;
+}
+
+td {
+    background: #F5D7BF;
+    padding: 10px;
+}
+
